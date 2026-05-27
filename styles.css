@@ -1,1 +1,36 @@
-/* your code */
+body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        table{
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        thead{
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        th, td{
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:hover{
+            background-color: #ddd;
+        }
+
+        h1{
+            text-align: center;
+            color: #333;
+        }
